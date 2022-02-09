@@ -1,0 +1,261 @@
+body{
+    text-align: center;
+}
+
+/* Used this multiple */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    font-size: larger;
+}
+
+/* Headings */
+
+.title-content{
+    font-family: 'Arvo', serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+    /* size: 3.5rem; */
+    line-height: 1.75;
+    /* margin-top: 15%; */
+    padding-right: 20%;
+    margin-bottom: 10%;
+}
+
+
+/* Coloured Section */
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* White Section */
+.white-section{
+    background-color:#fff;
+}
+
+
+/* Title Section */
+
+#title{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 3%;
+}
+
+/* Buttons */
+.btn{
+    line-height: 2;
+    margin-right: 30px;
+    margin-bottom: 5%;
+}
+/* Buttons */
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left; 
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+/* Navigation Bar */
+
+.container-fluid{
+    padding: 0% 15% 3% 15%;
+}
+
+.iphone-img{
+    width: 20%;
+    margin-top: 3%;
+    margin-left:5%;
+    transform: rotate(27deg);
+    position:absolute;
+    z-index: 1;
+}
+
+
+/* Features Section */
+#features{
+    padding: 10% 7% 10% 7%;
+    position: relative;
+    z-index: 1;
+    margin:0 auto 0 auto;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+.col-lg-4{
+    padding: 4.75%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color:#ef8172;
+    color: #ffff;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Press section */
+#press{
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 2rem;
+}
+
+
+/* Pricing Section */
+#pricing{
+    padding: 7rem;
+}
+
+#pricing p{
+    color: #8f8f8f;
+    font-size: 1.12rem;
+}
+
+#pricing h3{
+    font-family: 'Playfair Display', serif;
+}
+
+#pricing h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.pricing-column{
+    padding: 2rem;
+}
+
+.pricing-text {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5;
+}
+
+
+/* Call to action */
+#cta{
+    padding-top: 0.5rem;
+    color: #fff;    
+}
+
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    font-size: 2.5rem;
+    font-weight:900;
+    margin: 5% auto;
+    line-height: 2;
+}
+
+
+/* Footer section */
+#footer{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-icon{
+    text-decoration: none;
+    color: #8f8f8f;
+    margin: 1%;
+}
+.card1{
+    padding-bottom: 42.887px;;
+}
+
+/* Footer Icons */
+.fa-twitter:hover {
+    color: rgb(29, 155, 240);;
+}
+
+.fa-facebook-f:hover{
+    color:#3b5998;
+}
+
+.fa-instagram:hover{
+    color:#e0625e;
+}
+
+.fa-envelope:hover{
+    color:#EA4335;
+}
+
+
+/* the button gets close */
+@media (min-width:991px) and (max-width:1085px) {
+    .playstore-btn{
+        margin-top:4%;
+    }
+}
+
+
+/* The iphone-img goes down */
+@media (max-width:991px) {
+    .iphone-img{
+        position:static;
+        width: 40%;
+        margin-left: 0;
+        margin-top: 7%;
+        transform: rotate(0deg);
+    }
+    h1{
+        margin-left: 60px;
+    }
+    #title{
+        text-align: center;
+    }
+    .navbar-nav{
+        text-align: right;
+    }
+}
